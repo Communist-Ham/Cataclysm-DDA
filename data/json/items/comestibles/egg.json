@@ -1257,5 +1257,65 @@
     "name": { "str": "cluster of frog's eggs", "str_pl": "clusters of frog's eggs" },
     "rot_spawn": "GROUP_EGG_SHIFT_FROG",
     "vitamins": [ [ "iron", 4 ], [ "mutant_toxin", 8 ] ]
+ },
+  {
+    "type": "COMESTIBLE",
+    "id": "egg_proxy_snake",
+    "name": { "str": "A snake egg", "str_pl": "Snake eggs" },
+    "weight": "50 g",
+    "color": "white",
+    "spoils_in": "57 days",
+    "comestible_type": "FOOD",
+    "symbol": "o",
+    "quench": 4,
+    "calories": 64,
+    "description": "A white leathery snake egg.",
+    "price": "12 cent",
+    "price_postapoc": "25 cent",
+    "material": [ "egg" ],
+    "volume": "100 ml",
+    "fun": -6,
+    "vitamins": [ [ "iron", 6 ] ],
+    "flags": [ "RAW" ]
+  },
+    {
+    "type": "COMESTIBLE",
+    "id": "egg_racer_snake",
+    "copy-from": "egg_proxy_snake",
+	"spoils_in": "40 days",
+    "name": { "str": "A snake egg", "str_pl": "Snake eggs" },
+    "rot_spawn": "GROUP_EGG_RACER_SNAKE"
+  },
+      {
+    "type": "COMESTIBLE",
+    "id": "egg_racer_snake_big",
+    "copy-from": "egg_proxy_snake",
+    "name": { "str": "A snake egg", "str_pl": "Snake eggs" },
+	"description": "A very large white leathery snake egg.",
+	"spoils_in": "40 days",
+    "rot_spawn": "GROUP_EGG_RACER_SNAKE_BIG",
+	"calories": 84,
+	"vitamins": [ [ "iron", 6 ] ]
+  },
+    {
+    "type": "COMESTIBLE",
+    "id": "egg_hognose_snake",
+    "copy-from": "egg_proxy_snake",
+	"spoils_in": "60 days",
+    "name": { "str": "A snake egg", "str_pl": "Snake eggs" },
+    "rot_spawn": "GROUP_EGG_HOGNOSE_SNAKE"
+  },
+      {
+    "type": "COMESTIBLE",
+    "id": "egg_hognose_snake_big",
+    "copy-from": "egg_proxy_snake",
+	"spoils_in": "60 days",
+    "name": { "str": "A snake egg", "str_pl": "Snake eggs" },
+	"description": "A very large white leathery snake egg.",
+    "rot_spawn": "GROUP_EGG_HOGNOSE_SNAKE_BIG",
+	"calories": 84,
+	"vitamins": [ [ "iron", 6 ] ]
   }
+]
+
 ]
