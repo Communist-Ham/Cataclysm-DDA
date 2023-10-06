@@ -541,9 +541,29 @@
     "type": "monstergroup",
     "monsters": [ { "monster": "mon_gray_tadpole" } ]
   },
-  {
+ {
     "name": "GROUP_EGG_SHIFT_FROG",
     "type": "monstergroup",
     "monsters": [ { "monster": "mon_shift_tadpole" } ]
+  },
+    {
+    "name": "GROUP_EGG_RACER_SNAKE",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_racer_s" } ]
+  },
+      {
+    "name": "GROUP_EGG_RACER_SNAKE_BIG",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_racer_big_s" } ]
+  },
+        {
+    "name": "GROUP_EGG_HOGNOSE_SNAKE",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_hognose_s" } ]
+  },
+          {
+    "name": "GROUP_EGG_HOGNOSE_SNAKE_BIG",
+    "type": "monstergroup",
+    "monsters": [ { "monster": "mon_hognose_big_s" } ]
   }
 ]
