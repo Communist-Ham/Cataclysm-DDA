@@ -113,12 +113,7 @@
         "conditions": [ "SPRING", "SUMMER", "AUTUMN" ],
         "starts": "90 days"
       },
-      {
-        "monster": "mon_rattlesnake",
-        "weight": 3,
-        "cost_multiplier": 5,
-        "conditions": [ "SPRING", "SUMMER", "AUTUMN" ]
-      },
+	    { "group": "GROUP_SNAKES_FOREST", "weight": 200 },
       { "group": "GROUP_FROGS_FOREST", "weight": 300 }
     ]
   },
@@ -574,6 +569,35 @@
       { "monster": "mon_squirrel", "weight": 25, "cost_multiplier": 0 },
       { "monster": "mon_hummingbird", "weight": 50, "cost_multiplier": 0 },
       { "monster": "mon_woodpecker", "weight": 50, "cost_multiplier": 0 }
+    ]
+  },
+    {
+    "name": "GROUP_SNAKES_FOREST",
+    "type": "monstergroup",
+	"default": "mon_racer",
+	"is_animal": true,
+    "monsters": [
+      {
+        "monster": "mon_racer",
+        "weight": 30,
+        "conditions": [ "SPRING", "SUMMER", "AUTUMN" ]
+      },
+      {
+        "monster": "mon_copperhead",
+        "weight": 20,
+        "conditions": [ "SPRING", "SUMMER", "AUTUMN" ]
+      },
+      {
+        "monster": "mon_rattlesnake",
+        "weight": 20,
+        "pack_size": [ 1, 2 ],
+        "conditions": [ "SPRING", "SUMMER", "AUTUMN" ]
+      },
+      {
+        "monster": "mon_hognose",
+        "weight": 20,
+        "conditions": [ "SPRING", "SUMMER", "AUTUMN" ]
+      }
     ]
   }
 ]
